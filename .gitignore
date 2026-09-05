@@ -1,0 +1,40 @@
+# Environment variables
+.env
+.env.*
+
+# Python virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+
+# ChromaDB / vector databases
+chroma_db/
+**/chroma_db/
+
+# Other common database folders
+database/
+databases/
+**/database/
+**/databases/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db

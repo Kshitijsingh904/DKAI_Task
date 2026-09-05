@@ -1,0 +1,14 @@
+langchain
+langchain-text-splitters
+scikit-learn
+sentence-transformers
+langchain-huggingface
+pandas
+langchain-community
+langchain-chroma
+faiss-cpu
+langchain-milvus
+pymilvus
+python-dotenv
+langchain-groq
+pypdf
