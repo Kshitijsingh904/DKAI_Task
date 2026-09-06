@@ -2,7 +2,7 @@ import os
 from pypdf import PdfReader
 from langchain_core.documents import Document
 
-PDF_FOLDER = r"C:\Users\HP\Desktop\document"
+PDF_FOLDER = r"C:\Users\HP\Desktop\DKAItasks\DKAItask2\document"
 
 def load_pdfs(folder_path):
     documents = []
