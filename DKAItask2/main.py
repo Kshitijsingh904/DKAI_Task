@@ -62,7 +62,7 @@ def main():
         print("\n--- SOURCES USED ---")
         for i, doc in enumerate(sources):
             source_name = doc.metadata.get("source","unknown document")
-            page_num = doc.mtadata.get("page","N/A")
+            page_num = doc.metadata.get("page","N/A")
             print(f"[{i+1}] file: {source_name} | page: {page_num}")
         print("-" * 20 + "\n")
 
